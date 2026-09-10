@@ -1,0 +1,834 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "All jerseys",
+    "friendly_name": "all jerseys"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "premier_league",
+    "friendly_name": "premier league"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "international_kits",
+    "friendly_name": "national jerseys"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "special_items_boots",
+    "friendly_name": "Boots"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 13,
+  "fields": {
+    "name": "premier_league_tops",
+    "friendly_name": "premier jackets"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 16,
+  "fields": {
+    "name": "international_Jackets",
+    "friendly_name": "nationals jackets"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "sku": "10001",
+    "name": "Arsenal away",
+    "description": "Retro Arsenal 1993-94 Away Kit Gunners Football Soccer Vintage Shirt",
+    "has_sizes": false,
+    "price": "59.99",
+    "rating": "3.00",
+    "image_url": "https://www.etsy.com/ie/listing/1526526131/retro-arsenal-1993-94-away-kit-gunners?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-clothing-other&utm_custom1=_k_CjwKCAjw8symBhAqEiwAaTA__IFmq-7m3VtlHZZdInRHjBcxs-Vt0ICR6_aMGcKeCUwrJaJ3_b4vThoCaaEQAvD_BwE_k_&utm_content=go_18663323186_142902992819_629704335119_aud-2079782229294:pla-297616371983_c__1526526131enie_432418375&utm_custom2=18663323186&gclid=CjwKCAjw8symBhAqEiwAaTA__IFmq-7m3VtlHZZdInRHjBcxs-Vt0ICR6_aMGcKeCUwrJaJ3_b4vThoCaaEQAvD_BwE",
+    "image": "arsenal.webp",
+    "featured": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "sku": "10002",
+    "name": "Aston villa away",
+    "description": "Aston Villa 1998 Away Retro Football Shirt",
+    "has_sizes": true,
+    "price": "35.00",
+    "rating": "2.00",
+    "image_url": "https://www.3retro.com/clubs/premier-league/aston-villa/902_aston-villa-1998-away-retro-football-shirt.html",
+    "image": "aston_villa.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "category": 2,
+    "sku": "10003",
+    "name": "Blackburn home kit",
+    "description": "1992-94 Blackburn Asics Home",
+    "has_sizes": true,
+    "price": "59.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1992-94-blackburn-asics-home-shirt-as-new-l/57416",
+    "image": "blackburn.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "sku": "10004",
+    "name": "Burnley home kit",
+    "description": "1993-95-burnley-mitre-home-shirt-",
+    "has_sizes": true,
+    "price": "25.99",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1993-95-burnley-mitre-home-shirt-xl/47523",
+    "image": "1993-95-burnley-mitre-home-shi-47523-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "sku": "10005",
+    "name": "Birmingham fc",
+    "description": "1996-97 Birmingham Pony Home Shirt XL",
+    "has_sizes": true,
+    "price": "70.99",
+    "rating": "4.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1996-97-birmingham-pony-home-shirt-xl/46686",
+    "image": "1996-97-birmingham-pony-home-s-46686-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "sku": "10006",
+    "name": "Leeds fc",
+    "description": "2002-03 Leeds Nike Home Shirt",
+    "has_sizes": true,
+    "price": "19.99",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2002-03-leeds-nike-home-shirt-l/48467",
+    "image": "leeds.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "category": 2,
+    "sku": "10007",
+    "name": "Liverpool Fc",
+    "description": "1987-88 Liverpool adidas Home Shirt",
+    "has_sizes": true,
+    "price": "89.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1987-88-liverpool-adidas-home-shirt-xl/53327",
+    "image": "liverpool.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "category": 2,
+    "sku": "10008",
+    "name": "liverpool away",
+    "description": "1987-88 Liverpool adidas Away Shirt",
+    "has_sizes": true,
+    "price": "89.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1987-88-liverpool-adidas-away-shirt-xl-boys/49507",
+    "image": "1987-88-liverpool-adidas-away-49507-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "category": 2,
+    "sku": "10009",
+    "name": "Newcastle adidas Home Shirt",
+    "description": "1995-97 Newcastle adidas Home Shirt",
+    "has_sizes": true,
+    "price": "49.99",
+    "rating": "3.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1995-97-newcastle-adidas-home-shirt-s/55724",
+    "image": "newcastle.webp",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "category": 2,
+    "sku": "100010",
+    "name": "Tottenham Umbro Away Shirt",
+    "description": "1991-95 Tottenham Umbro Away Shirt",
+    "has_sizes": true,
+    "price": "61.99",
+    "rating": "4.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1991-95-tottenham-umbro-away-shirt-xl/39902",
+    "image": "Spurs-retro-300x300.jpeg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "category": 2,
+    "sku": "100011",
+    "name": "Tottenham Umbro Home Shirt",
+    "description": "1991-93 Tottenham Umbro Home Shirt",
+    "has_sizes": true,
+    "price": "61.99",
+    "rating": "4.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1991-93-tottenham-umbro-home-shirt-l/57987",
+    "image": "1991-93-tottenham-umbro-home-s-57987-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "category": 2,
+    "sku": "100012",
+    "name": "Manchester United Umbro Newton Heath Third Shirt",
+    "description": "1992-94 Manchester United Umbro Newton Heath Third Shir",
+    "has_sizes": true,
+    "price": "99.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1992-94-manchester-united-umbro-newton-heath-third-shirt-l/50289",
+    "image": "1992-94-manchester-united-umbr-50289-1_BlSiWjK.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "category": 2,
+    "sku": "100013",
+    "name": "Wolverhampton wonders home",
+    "description": "1996-98 Wolves Puma Home Shirt",
+    "has_sizes": true,
+    "price": "29.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1996-98-wolves-puma-home-shirt-mint-xxl/47576",
+    "image": "1996-98-wolves-puma-home-shirt-47576-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "category": 2,
+    "sku": "100014",
+    "name": "Chelsea Umbro Home Shirt",
+    "description": "1993-94 Chelsea Umbro Home Shirt",
+    "has_sizes": true,
+    "price": "39.99",
+    "rating": "3.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1993-94-chelsea-umbro-home-shirt-xl/57907",
+    "image": "1993-94-chelsea-umbro-home-shi-57907-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "category": 2,
+    "sku": "100015",
+    "name": "Chelsea Umbro Away Shirt",
+    "description": "1992-94 Chelsea Umbro Away Shirt",
+    "has_sizes": true,
+    "price": "39.99",
+    "rating": "3.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1992-94-chelsea-umbro-away-shirt-xl/53466",
+    "image": "1992-94-chelsea-umbro-away-shi-53466-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "category": 13,
+    "sku": "100016",
+    "name": "Arsenal adidas Rain Coat",
+    "description": "1990-92 Arsenal adidas Rain Coat",
+    "has_sizes": true,
+    "price": "99.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1990-92-arsenal-adidas-rain-coat-s/39545",
+    "image": "1990-92-arsenal-adidas-rain-co-39545-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "category": 13,
+    "sku": "100017",
+    "name": "Chelsea-umbro-rain-jacket",
+    "description": "1991-93-chelsea-umbro-rain-jacket",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1991-93-chelsea-umbro-rain-jacket-l-boys/45257",
+    "image": "1991-93-chelsea-umbro-rain-jac-45257-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "category": 13,
+    "sku": "100018",
+    "name": "Liverpool adidas Padded Bench Coat",
+    "description": "1992-93 Liverpool adidas Padded Bench Coat",
+    "has_sizes": false,
+    "price": "125.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1992-93-liverpool-adidas-padded-bench-coat-xl/49102",
+    "image": "1992-93-liverpool-adidas-padde-49102-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "category": 13,
+    "sku": "100019",
+    "name": "Manchester United Umbro Bench Coat",
+    "description": "1992-93 Manchester United Umbro Bench Coat",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1992-93-manchester-united-umbro-bench-coat-l/51902",
+    "image": "1992-93-manchester-united-umbr-51902-1.jpg",
+    "featured": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "category": 13,
+    "sku": "100020",
+    "name": "Manchester City Umbro Track Jacket",
+    "description": "1993-94 Manchester City Umbro Track Jacket",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1993-94-manchester-city-umbro-track-jacket-xs/45578",
+    "image": "1993-94-manchester-city-umbro-45578-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "category": 13,
+    "sku": "100021",
+    "name": "Tottenham Umbro Bench Coat",
+    "description": "1994-95 Tottenham Umbro Bench Coat",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1994-95-tottenham-umbro-bench-coat-l/39904",
+    "image": "1994-95-tottenham-umbro-bench-39904-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "category": 13,
+    "sku": "100022",
+    "name": "Aston Villa Reebok Padded Bench Coat",
+    "description": "1995-97 Aston Villa Reebok Padded Bench Coat",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1995-97-aston-villa-reebok-padded-bench-coat-xl/43173",
+    "image": "1995-97-aston-villa-reebok_Q5YP3Fs.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+    "category": 13,
+    "sku": "100024",
+    "name": "Wolves Puma 1/4 Zip Track",
+    "description": "2017-18 Wolves Puma 1/4 Zip Track",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2017-18-wolves-puma-1-4-zip-track-top-s/40817",
+    "image": "2017-18-wolves-puma-1-4-zip-tr-40817-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "category": 13,
+    "sku": "100025",
+    "name": "Burnley Umbro Walkout Jacket",
+    "description": "2019-20 Burnley Umbro Walkout Jacket",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2019-20-burnley-umbro-walkout-jacket-m/51405",
+    "image": "2019-20-burnley-umbro-walkout-51405-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "category": 13,
+    "sku": "100026",
+    "name": "Everton Fc",
+    "description": "1988-90 Everton Umbro Drill Top",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1988-90-everton-umbro-drill-top-xs/54625",
+    "image": "1988-90-everton-umbro-drill-to-54625-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+    "category": 13,
+    "sku": "100027",
+    "name": "Newcastle United",
+    "description": "VINTAGE NEWCASTLE UNITED ADIDAS JACKET",
+    "has_sizes": false,
+    "price": "125.00",
+    "rating": "3.00",
+    "image_url": "https://www.carousell.com.my/p/vintage-newcastle-united-adidas-jacket-1200567268/",
+    "image": "vintage_newcastle_united_adida_1669999844_fb7226cc_progressive.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "category": 2,
+    "sku": "100023",
+    "name": "Everton Umbro Home Shirt",
+    "description": "1986-89 Everton Umbro Home Shirt",
+    "has_sizes": true,
+    "price": "19.99",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1986-89-everton-umbro-home-shirt-l-boys/36154",
+    "image": "1986-89-everton-umbro-home-shi-36154-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "category": 13,
+    "sku": "100029",
+    "name": "West Ham Reebok Track Jacket",
+    "description": "2003-04 West Ham Reebok Track Jacket",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2003-04-west-ham-reebok-track-jacket-xxl/56944",
+    "image": "2003-04-west-ham-reebok-track-56944-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+    "category": 2,
+    "sku": "100028",
+    "name": "Nottingham Forest Umbro Home Shirt",
+    "description": "1994-96 Nottingham Forest Umbro Home Shirt",
+    "has_sizes": true,
+    "price": "39.99",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1994-96-nottingham-forest-umbro-home-shirt-bnib-l/53179",
+    "image": "1994-96-nottingham-forest-umbr-53179-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 31,
+  "fields": {
+    "category": 13,
+    "sku": "100030",
+    "name": "Sheffield United Umbro Track Jacket",
+    "description": "1989-91 Sheffield United Umbro Track Jacket",
+    "has_sizes": true,
+    "price": "125.00",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1989-91-sheffield-united-umbro-track-jacket-xs/39191",
+    "image": "1989-91-sheffield-united-umbro-39191-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+    "category": 2,
+    "sku": "100031",
+    "name": "Sheffield United Umbro Home Shirt",
+    "description": "1990-92 Sheffield United Umbro Home Shirt",
+    "has_sizes": true,
+    "price": "69.00",
+    "rating": "1.00",
+    "image_url": "http://vintagefootballshirts.com/products/1990-92-sheffield-united-umbro-home-shirt-l/55672",
+    "image": "1990-92-sheffield-united-umbro-55672-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 33,
+  "fields": {
+    "category": 10,
+    "sku": "100032",
+    "name": "adidas Copa 19.1 SG",
+    "description": "adidas Copa 19.1 SG Football Boots",
+    "has_sizes": true,
+    "price": "98.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/adidas-copa-19-1-sg-football-boots-bnib/44932",
+    "image": "adidas-copa-19-1-sg-football-b-44932-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+    "category": 10,
+    "sku": "100033",
+    "name": "adidas Copa 19.1 SG",
+    "description": "adidas Copa 19.1 SG Football Boots",
+    "has_sizes": true,
+    "price": "98.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/adidas-copa-19-1-sg-football-boots-bnib/44930",
+    "image": "adidas-copa-19-1-sg-football-b-44930-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 35,
+  "fields": {
+    "category": 10,
+    "sku": "100034",
+    "name": "adidas X Ghosted",
+    "description": "adidas X Ghosted+ SG Football Boots",
+    "has_sizes": false,
+    "price": "230.99",
+    "rating": "5.00",
+    "image_url": "http://vintagefootballshirts.com/products/adidas-x-ghosted-sg-football-boots-bnib/44914",
+    "image": "adidas-x-ghosted-sg-football-44914-1.jpg",
+    "featured": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 36,
+  "fields": {
+    "category": 10,
+    "sku": "100035",
+    "name": "Puma evoSpeed 1.4 Mixed",
+    "description": "Puma evoSpeed 1.4 Mixed SG Soft Ground Football Boots",
+    "has_sizes": true,
+    "price": "199.99",
+    "rating": "3.00",
+    "image_url": "http://vintagefootballshirts.com/products/puma-evospeed-1-4-mixed-sg-soft-ground-football-boots-bnib/32992",
+    "image": "puma-evospeed-1-4-mixed-sg-sof-32992-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 37,
+  "fields": {
+    "category": 10,
+    "sku": "100036",
+    "name": "Puma King Platinum 21",
+    "description": "Puma King Platinum 21 FG/AG Football Boots",
+    "has_sizes": true,
+    "price": "99.99",
+    "rating": "4.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/puma-king-platinum-21-fg-ag-football-boots-bnib/53813",
+    "image": "puma-king-platinum-21-fg-ag-fo-53813-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 38,
+  "fields": {
+    "category": 10,
+    "sku": "100037",
+    "name": "Puma Ultra Ultimate",
+    "description": "Puma Ultra Ultimate FG/AG Football Boots",
+    "has_sizes": true,
+    "price": "57.99",
+    "rating": "2.00",
+    "image_url": "http://vintagefootballshirts.com/products/puma-ultra-ultimate-fg-ag-football-boots-bnib/53956",
+    "image": "puma-ultra-ultimate-fg-ag-foot-53956-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 39,
+  "fields": {
+    "category": 4,
+    "sku": "100038",
+    "name": "England Admiral Home Shirt",
+    "description": "1980-83 England Admiral Home Shirt",
+    "has_sizes": false,
+    "price": "49.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1980-83-england-admiral-home-shirt-s/34525",
+    "image": "1980-83-england-admiral-home-s-34525-1_IGOSXUx.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 40,
+  "fields": {
+    "category": 4,
+    "sku": "100039",
+    "name": "Belgium Nike Home Shirt",
+    "description": "2000-02 Belgium Nike Home Shirt",
+    "has_sizes": false,
+    "price": "29.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2000-02-belgium-nike-home-shirt-l/41960",
+    "image": "2000-02-belgium-nike-home-shir-41960-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 41,
+  "fields": {
+    "category": 4,
+    "sku": "100040",
+    "name": "France adidas 'Argentine '78' Home Shirt",
+    "description": "1978 France adidas 'Argentine '78' Home Shirt",
+    "has_sizes": true,
+    "price": "300.99",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1978-france-adidas-argentine-78-home-shirt-l-s-s/34433",
+    "image": "1978-france-adidas-argen-34433-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 42,
+  "fields": {
+    "category": 4,
+    "sku": "100041",
+    "name": "West Germany adidas Home Shirt",
+    "description": "1980-82 West Germany adidas Home Shirt",
+    "has_sizes": true,
+    "price": "239.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1980-82-west-germany-adidas-home-shirt-l-s-mint-s/47697",
+    "image": "1980-82-west-germany-adidas-ho-47697-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 43,
+  "fields": {
+    "category": 4,
+    "sku": "100042",
+    "name": "Ireland adidas Home Shirt",
+    "description": "1988-90 Ireland adidas Home Shirt",
+    "has_sizes": true,
+    "price": "300.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1988-90-ireland-adidas-home-shirt-m/50079",
+    "image": "1988-90-ireland-adidas-home-sh-50079-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 44,
+  "fields": {
+    "category": 16,
+    "sku": "100043",
+    "name": "Ireland Umbro Track Jacket",
+    "description": "2011-12 Ireland Umbro Track Jacket",
+    "has_sizes": true,
+    "price": "49.99",
+    "rating": "3.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2011-12-ireland-umbro-track-jacket-l/52270",
+    "image": "2011-12-ireland-umbro-track-ja-52270-1_jHaWM1a.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 45,
+  "fields": {
+    "category": 16,
+    "sku": "100044",
+    "name": "England Umbro Shell Jacket",
+    "description": "1990-92 England Umbro Shell Jacket",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": "5.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1990-92-england-umbro-shell-jacket-y/39190",
+    "image": "1990-92-england-umbro-shell-ja-39190-1_GDYaaaz.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 46,
+  "fields": {
+    "category": 16,
+    "sku": "100045",
+    "name": "Belgium Diadora Bench Coat",
+    "description": "1996-97 Belgium Diadora Bench Coat",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": "4.00",
+    "image_url": "http://vintagefootballshirts.com/products/1996-97-belgium-diadora-bench-coat-w-tags-xl/38788",
+    "image": "1996-97-belgium-diadora-bench-38788-1_SYk8fmF.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 47,
+  "fields": {
+    "category": 16,
+    "sku": "100046",
+    "name": "Portugal Nike Track Jacket",
+    "description": "1999-00 Portugal Nike Track Jacket",
+    "has_sizes": true,
+    "price": "67.99",
+    "rating": "2.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/1999-00-portugal-nike-track-jacket-xl/55385",
+    "image": "1999-00-portugal-nike-track-ja-55385-1_Zpvl9qg.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 48,
+  "fields": {
+    "category": 16,
+    "sku": "100047",
+    "name": "Spain adidas Track Jacket",
+    "description": "2000-02 Spain adidas Track Jacket",
+    "has_sizes": true,
+    "price": "59.99",
+    "rating": "1.00",
+    "image_url": "https://www.vintagefootballshirts.com/products/2000-02-spain-adidas-track-jacket-m/41455",
+    "image": "1999-00-portugal-nike-track-ja-55385-1.jpg",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 49,
+  "fields": {
+    "category": 1,
+    "sku": null,
+    "name": "tes",
+    "description": "test",
+    "has_sizes": false,
+    "price": "300.99",
+    "rating": null,
+    "image_url": null,
+    "image": "",
+    "featured": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 50,
+  "fields": {
+    "category": 1,
+    "sku": null,
+    "name": "test",
+    "description": "testing with image",
+    "has_sizes": false,
+    "price": "123.45",
+    "rating": null,
+    "image_url": null,
+    "image": "2011-12-ireland-umbro-track-ja-52270-1.jpg",
+    "featured": false
+  }
+}
+]
