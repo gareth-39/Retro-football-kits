@@ -10,7 +10,7 @@ from profiles.models import UserProfile
 import json
 import time
 import stripe
-
+import resend
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
@@ -18,22 +18,26 @@ class StripeWH_Handler:
     def __init__(self, request):
         self.request = request
 
-    def _send_confirmation_email(self, order):
-        """Send the user a confirmation email"""
-        cust_email = order.email
-        subject = render_to_string(
+        def _send_confirmation_email(self, order):
+            """Send the user a confirmation email"""
+            cust_email = order.email
+            subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
-            {'order': order})
+            {'order': order}
+        )
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
-            {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-
-        send_mail(
-            subject,
-            body,
-            settings.DEFAULT_FROM_EMAIL,
-            [cust_email]
+            {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL}
         )
+
+        resend.api_key = settings.RESEND_API_KEY
+
+        resend.Emails.send({
+            "from": "onboarding@resend.dev",
+            "to": [cust_email],
+            "subject": subject,
+            "text": body,
+        })
 
     def handle_event(self, event):
         """

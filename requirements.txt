@@ -26,4 +26,5 @@ tqdm==4.66.1
 tzdata==2023.3
 urllib3==1.26.16
 xxhash==3.4.1
-whitenoise 
+whitenoise
+resend
