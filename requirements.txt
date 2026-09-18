@@ -28,3 +28,4 @@ urllib3==1.26.16
 xxhash==3.4.1
 whitenoise
 resend
+django-crispy-bootstrap4
