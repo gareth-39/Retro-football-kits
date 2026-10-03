@@ -32,24 +32,13 @@ class StripeWH_Handler:
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL}
         )
 
-        resend.api_key = settings.RESEND_API_KEY
-
-        resend.Emails.send({
-            "from": "onboarding@resend.dev",
-            "to": [cust_email],
-            "subject": subject,
-            "text": body,
-        })
-
-
-        resend.api_key = settings.RESEND_API_KEY
-
-        resend.Emails.send({
-            "from": "onboarding@resend.dev",
-            "to": [cust_email],
-            "subject": subject,
-            "text": body,
-        })
+        send_mail(
+        subject,
+        body,
+        settings.DEFAULT_FROM_EMAIL,
+        [cust_email],
+       
+        )
 
     def handle_event(self, event):
         """
