@@ -35,6 +35,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "retro-football-kits.onrender.com",
+    "retrokits.ie",
+    "www.retrokits.ie",
     "localhost",
     "127.0.0.1",
 ]
