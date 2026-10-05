@@ -1,5 +1,4 @@
 from django.http import HttpResponse
-from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
 
@@ -32,13 +31,15 @@ class StripeWH_Handler:
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL}
         )
 
-        send_mail(
-        subject,
-        body,
-        settings.DEFAULT_FROM_EMAIL,
-        [cust_email],
-       
-        )
+        resend.api_key = settings.RESEND_API_KEY
+
+        resend.Emails.send({
+        "from": "orders@retrokits.ie",
+        "to": [cust_email],
+        "subject": subject,
+        "text": body,
+
+        })
 
     def handle_event(self, event):
         """
